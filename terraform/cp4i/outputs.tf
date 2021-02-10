@@ -31,6 +31,6 @@ output "kubeconfig" {
 // output "cp4data_password" {
 //   value = module.cp4data.password
 // }
-output "cp4data_namespace" {
-  value = module.cp4data.namespace
+output "cp4i_namespace" {
+  value = module.cp4i.namespace
 }

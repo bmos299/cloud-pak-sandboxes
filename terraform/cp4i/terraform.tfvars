@@ -7,9 +7,6 @@
 // RECOMMENDED: to set the cluster_id using an external input, like this:
 // export TF_VAR_cluster_id="*********************"
 
-// The available Cloud Pak for Integration 2020.3.1
-install_version = 2020.3.1
-
 // Otherwise, create a cluster based on values below
 project_name   = "cloud-pack"
 owner          = "anonymous"
@@ -43,7 +40,9 @@ public_vlan_number  = "2979230"
 // CP4DATA Parametrers:
 // --------------------
 
-storage_class_name = "ibmc-file-custom-gold-gid"
+ibm_operator_catalog_name = "ibm-operator-catalog"
+opencloud_operator_catalog_name = "opencloud-operator-catalog"
+subscription_name = "subscription"
 
 // CP4DATA Modules installation parameters for version 3.0
 // -------------------------------------------------------
@@ -54,9 +53,4 @@ install_guardium_external_stap                 = false
 
 
 
-// CP4DATA Modules installation parameters for version 3.5
-// -------------------------------------------------------
-
-install_watson_knowledge_catalog = false
-install_watson_studio            = false
 

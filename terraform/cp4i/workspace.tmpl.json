@@ -63,16 +63,6 @@
           "type": "string"
         },
         {
-          "name": "install_version",
-          "value": "2020.3.1",
-          "type": "string"
-        },
-        {
-          "name": "storage_class_name",
-          "value": "ibmc-file-custom-gold-gid",
-          "type": "string"
-        },
-        {
           "name": "entitled_registry_key",
           "value": "{{ ENTITLED_KEY }}",
           "type": "string",
@@ -97,11 +87,6 @@
           "name": "docker_access_token",
           "value": "",
           "type": "string"
-        },
-        {
-          "name": "install_db2_data_management",
-          "value": "false",
-          "type": "bool"
         }
       ]
     }
